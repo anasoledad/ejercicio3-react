@@ -1,14 +1,14 @@
 import './App.css'
+import Mensaje from './components/Mensaje'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return (
     <>
-      <div>
-
-      </div>
-
+      <section>
+        <Mensaje nuevoMensaje = 'my friend'></Mensaje>
+      </section>
     </>
   )
 }
